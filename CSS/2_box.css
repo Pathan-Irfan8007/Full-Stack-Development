@@ -1,0 +1,26 @@
+h2, h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(207, 164, 108);
+}
+
+.box-border{
+    border: 2px solid black;
+}
+
+.box1{
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(191, 214, 234);
+    padding: 20px;
+    margin: 20px;
+    margin-bottom: 50px;
+}
+
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: aliceblue;
+    padding: 20px;
+    margin: 20px;
+}
