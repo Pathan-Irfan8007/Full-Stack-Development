@@ -1,0 +1,47 @@
+#container{
+    background-color: antiquewhite;
+    width: 96vw;
+    height: 91vh;
+    border: 2px solid black;
+    display: flex;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 7px;
+}
+
+
+@media (min-width: 700px){
+    #box1{
+        background-color: black;
+        color: white;
+    }
+}
+@media (min-width: 800px){
+    #box2{
+        background-color: black;
+        color: white;
+    }
+}
+@media (min-width: 900px){
+    #box3{
+        background-color: black;
+        color: white;
+    }
+}
+@media (min-width: 1000px){
+    #box4{
+        background-color: black;
+        color: white;
+    }
+}
+
+.box:hover {
+    background-color: pink !important;
+    color: black !important;
+}
