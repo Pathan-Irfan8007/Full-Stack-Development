@@ -1,0 +1,15 @@
+:root{
+    --primary_color : red;
+}
+.container{
+    background-color: var(--primary_color);
+    padding: 10px;
+}
+
+.box{
+    --primary_color : blue;
+    background-color: beige;
+    margin: 5px;
+    text-align: center;
+    color: var(--primary_color);
+}
