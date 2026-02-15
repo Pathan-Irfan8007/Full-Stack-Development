@@ -12,3 +12,7 @@ But till the day end i have to cover as much as possible and start DOM Manipulat
 ### 2nd half :
 I have completed basics of JavaScript & it's time to move towards DOM Manipulation, but i am very exhausted now thats why I am taking brake.
 After dinner I will statr DOM Manipulation.
+
+### 3rd half :
+This is my third half, I have started DOM Manipulation & I am loving it because it's very interesting and also little bit complex.
+My day goes very well, Excited to learn more !

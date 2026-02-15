@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    Hello
+    <br><br>
+
+    <div id="box1">Box</div>
+    <div class="box">Box 1</div>
+    <div class="box">Box 2</div>
+    <div class="box">Box 3</div>
+    <button onclick="magic_1()">Magic - 1</button>
+    <button onclick="magic_2()">Magic - 2</button>
+
+
+    <script>
+        console.log("Hello");
+
+        const magic_1 = () => {
+            let a = document.getElementById("box1");
+            console.log(a);
+            a.innerHTML = "Magic - 1";
+
+            // let b = Array.from(document.getElementsByClassName("box"));
+            // console.log(b);
+        };
+
+        const magic_2 = () => {
+            let b = Array.from(document.getElementsByClassName("box"));
+            for(item of b){
+                item.innerHTML = ("This is " + item.innerHTML);
+                console.log(item);
+            };
+            
+        }
+
+        // let a = document.getElementById("box1");
+        // console.log(a);
+
+        // let b = Array.from(document.getElementsByClassName("box"));
+        // console.log(b);
+
+    </script>
+</body>
+</html>
