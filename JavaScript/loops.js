@@ -34,19 +34,27 @@
 // };
 
 
-let colors = ["red", "green", "blue"];
-console.log(colors);
-for (let color of colors) {
-    console.log(color);
-}
-console.log();
+// let colors = ["red", "green", "blue"];
+// console.log(colors);
+// for (let color of colors) {
+//     console.log(color);
+// }
+// console.log();
 
-let obj = {
-    a : "A",
-    b : "B",
-    c : "C"
+// let obj = {
+//     a : "A",
+//     b : "B",
+//     c : "C"
+// };
+// console.log(obj);
+// for(x in obj){
+//     console.log(x);
+// };
+
+
+for(let i = 0; i<5; i++) {
+    let num = 10;
+    // console.log("Hello");
+    console.log(num);
 };
-console.log(obj);
-for(x in obj){
-    console.log(x);
-};
+// console.log(num);           // This line shows error
