@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .textAlign{
+            text-align: center;
+        }
+        .black{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="textAlign">Box 1</div>
+    <div class="textAlign">Box 2</div>
+    <div class="textAlign">Box 3</div>
+    <button onclick="magic()">Magic</button>
+    <button onclick="newMagic()">Magic-2</button>
+
+    <script>
+        const magic = () => {
+            let d = document.getElementsByTagName("div");
+            for(let element of d){
+                element.classList.remove("textAlign");
+            };
+        };
+
+        const newMagic = () => {
+            let d = document.getElementsByTagName("div");
+            for(let element of d){
+                element.classList.add("textAlign");
+            };
+        };
+    </script>
+</body>
+</html>
