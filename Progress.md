@@ -20,3 +20,8 @@ My day goes very well, Excited to learn more !
 ## Day 10 :
 This is my day 10 & I have completed my basics of DOM Manipulation & I am loving it soo far.
 I am at college now and its time to return to hostel, later I will start Advanced DOM !
+
+### 2nd half :
+This is my 2nd half of day 10 & i have completed DOM Manipulation.
+This is the part where things start to become difficult but it's very interesting.
+Tomorrow I am starting Events in JS...
