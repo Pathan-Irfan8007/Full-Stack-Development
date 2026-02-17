@@ -25,3 +25,6 @@ I am at college now and its time to return to hostel, later I will start Advance
 This is my 2nd half of day 10 & i have completed DOM Manipulation.
 This is the part where things start to become difficult but it's very interesting.
 Tomorrow I am starting Events in JS...
+
+## Day 11 :
+This is Day 11 & I have started learning Events in JS.
