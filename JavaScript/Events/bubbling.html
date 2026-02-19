@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        #container{
+            background-color: blue;
+            /* height: 300px; */
+            /* width: 600px; */
+            display: flex;
+        }
+        
+        .box{
+            height: 100px;
+            width: 150px;
+            background-color: red;
+            padding: 20px;
+            margin: 50px;
+        }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <div id="box1" class="box">Box 1</div>
+            <div id="box2" class="box">Box 2</div>
+            <div id="box3" class="box">Box 3</div>
+        </div>
+        <script>
+        document.getElementById("container").addEventListener("click", (e) => {
+            console.log("Container was clicked");
+            console.log(e.target.innerText);
+            e.target.innerText = "Clicked";
+        });
+
+        // document.getElementById("box1").addEventListener("click", (e) => {
+        //     console.log("Box 1 Was Clicked");
+        //     e.stopPropagation();
+        // });
+        </script>
+    </body>
+</html>

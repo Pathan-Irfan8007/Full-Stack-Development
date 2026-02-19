@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Local Storage</title>
+</head>
+<body>
+    <form action="">
+        Name : <input type="text" id="name" value=""><br><br>
+        Age : <input type="number" name="age" id="age" value=""><br><br>
+        <input type="submit" id="submit" value="submit">
+    </form>
+
+    <script>
+        // const value = document.getElementById("name").value;
+        
+        document.getElementById("submit").addEventListener("click", () => {
+            const value1 = document.getElementById("name").value;
+            localStorage.setItem("Name", value1);
+            
+            const value2 = document.getElementById("age").value;
+            localStorage.setItem("Age", value2);
+
+            alert("Form Submitted");
+        });
+    </script>
+</body>
+</html>
