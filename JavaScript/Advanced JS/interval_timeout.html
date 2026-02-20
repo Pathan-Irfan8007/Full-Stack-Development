@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interval Timeout</title>
+</head>
+<body>
+    Interval & Timeout
+
+    <script>
+        let i = 1;
+        const event = setInterval(() => {
+            console.log(`This is line ${i}`);
+            i += 1;
+        }, 1000)
+
+        setTimeout(() => {
+            clearInterval(event);
+            console.log("Event Stopped");
+        }, 5000)
+
+    </script>
+</body>
+</html>

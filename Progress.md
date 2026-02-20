@@ -36,3 +36,6 @@ This is my Day 12 & till now I have covered events in JS, I have not written muc
 I have covered many topics of Advanced JS such as json & localStarage.
 localStorage is the topic that I like very much.
 Now I am taking a break because now is the time for Asar Namaz & Iftar.
+
+## Day 13 :
+This is my Day 13 & I am very happy today because I have successfully completed my HTML, CSS & JavaScript journey. Now I am moving towards framework.
