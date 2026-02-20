@@ -39,3 +39,6 @@ Now I am taking a break because now is the time for Asar Namaz & Iftar.
 
 ## Day 13 :
 This is my Day 13 & I am very happy today because I have successfully completed my HTML, CSS & JavaScript journey. Now I am moving towards framework.
+
+### 2nd half :
+I have started learning React, It's looking complicated but i have to do it... 
