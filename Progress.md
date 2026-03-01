@@ -42,3 +42,7 @@ This is my Day 13 & I am very happy today because I have successfully completed 
 
 ### 2nd half :
 I have started learning React, It's looking complicated but i have to do it... 
+
+## Day 14 :
+This is my Day 14 & it's a long time i have not written a single line because of my exams.
+But from now I will continue again.
