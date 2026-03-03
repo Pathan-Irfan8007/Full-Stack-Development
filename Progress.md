@@ -46,3 +46,8 @@ I have started learning React, It's looking complicated but i have to do it...
 ## Day 14 :
 This is my Day 14 & it's a long time i have not written a single line because of my exams.
 But from now I will continue again.
+
+## Day 15 :
+This is my Day 15, I have started learning React but in my previous code there some issues thats why i have created a new sample react-app.
+In this folder there are no any issues.
+Excited to start again.
