@@ -1,0 +1,36 @@
+body{
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 50px;
+    background-color: aqua;
+    align-items: center;
+    border: 1px solid black;
+    background-image: linear-gradient(to right, rgb(99, 47, 243), rgb(138, 115, 240));
+    border-radius: 4px;
+}
+
+.page{
+    /* background-color: red; */
+    padding: 5px;
+    color: rgb(209, 206, 240);
+    cursor: pointer;
+    font-size: 17px;
+}
+
+#logo{
+    width: 40%;
+    font-size: 35px;
+    font-family: fantasy,Times New Roman, Times, serif;
+    margin-left: 35px;
+    color: black;
+}
+
+.border{
+    /* border: 1px solid black; */
+    text-decoration: underline;
+}
