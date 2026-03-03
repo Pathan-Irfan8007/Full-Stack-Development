@@ -22,9 +22,9 @@ function App() {
     //   </header>
     // </div>
     <>
-      <Header/>
-      <Main/>
-      <Footer/>
+      <Header title="Sample"/><br />
+      <Main/><br />
+      <Footer/><br />
     </>
   );
 }

@@ -1,7 +1,15 @@
 import React from 'react'
 
-export const Footer = () => {
+export const Footer = (props) => {
   return (
-    <div>Footer Works</div>
+    <>
+      <div>Footer Works</div>
+      { props.value? <div>This div has value True</div>: <div>This div has value False</div>}
+
+    </>
   )
+}
+
+Footer.defaultProps = {
+  value : false
 }
