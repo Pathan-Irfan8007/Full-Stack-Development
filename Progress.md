@@ -59,3 +59,6 @@ Till now I learnt - props, useState etc.
 ### I have not worked for long time , this is my fault .
 ### But from today i am starting my node.js journey.
 ### And again this is my - day 1 of learning node & backend...
+
+### Day 2
+Today i learn Promises, i didn't get it now but i will learn it.
