@@ -69,3 +69,7 @@ Today i learn Promises, i didn't get it now but i will learn it.
 Today I have completed Node Journey, I have some doubts about 'promises' that i will resolve later
 Also I started Express Journey and I am loving backend
 now I have understood what are the API & how FrontEnd, BackEnd is connected. 
+
+### 2nd half
+Learning MongoDB....
+Starting how database works...
