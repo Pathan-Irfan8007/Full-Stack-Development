@@ -56,9 +56,16 @@ Excited to start again.
 Now I start to understand the concept of React.
 Till now I learnt - props, useState etc.
 
+# Starting Backend
+## Day 1
 ### I have not worked for long time , this is my fault .
 ### But from today i am starting my node.js journey.
 ### And again this is my - day 1 of learning node & backend...
 
-### Day 2
+## Day 2
 Today i learn Promises, i didn't get it now but i will learn it.
+
+## Day 3
+Today I have completed Node Journey, I have some doubts about 'promises' that i will resolve later
+Also I started Express Journey and I am loving backend
+now I have understood what are the API & how FrontEnd, BackEnd is connected. 

@@ -1,0 +1,15 @@
+{
+  "name": "render-html-files",
+  "version": "1.0.0",
+  "description": "This is the First complete app & i love to create this",
+  "license": "ISC",
+  "author": "Irfan Pathan",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
