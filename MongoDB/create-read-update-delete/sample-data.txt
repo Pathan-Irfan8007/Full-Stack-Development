@@ -1,0 +1,151 @@
+// School => teachers
+
+db.teachers.insertMany([
+    {
+        "name" : "AA",
+        "subject" : "MongoDB",
+        "experience" : 5
+    },
+    {
+        "Name" : "BB",
+        "subject" : "Node.js",
+        "experience" : 8
+    },
+    {
+        "name" : "CC",
+        "subject" : "Express.js",
+        "experience" : 3
+    }
+])
+
+
+//-------------------------
+// School => students
+
+db.students.insertMany([
+    {
+        "name" : "dd",
+        "age" : 20,
+        "course" : "MongoDB"
+    },
+    {
+        "name" : "ee",
+        "age" : 20,
+        "course" : "Node.js"
+    },
+    {
+        "name" : "ff",
+        "age" : 22,
+        "course" : "Express.js"
+    },
+    {
+        "name" : "gg",
+        "age" : 21,
+        "course" : "MongoDB"
+    },
+    {
+        "name" : "hh",
+        "age" : 25,
+        "course" : "Express.js"
+    },
+    {
+        "name" : "ii",
+        "age" : 20,
+        "course" : "MongoDB"
+    },
+])
+
+
+//-----------------------------
+// Update data
+
+db.students.updateOne(
+    {name : "ii"}, 
+    {$set: {course : "Node.js"}}
+)
+
+db.students.updateMany(
+    {}, 
+    {$set: {enrolled : true}}
+)
+
+db.teachers.updateMany(
+    {},
+    {$inc: {experience : 1}}
+)
+
+
+//-----------------------------------
+//Delete data
+
+db.students.insertMany([
+    {
+        "name" : "jj",
+        "age" : 20,
+        "course" : "MongoDB",
+        enrolled : false
+    },
+    {
+        "name" : "kk",
+        "age" : 10,
+        "course" : "Node.js",
+        enrolled : false
+    },
+    {
+        "name" : "ll",
+        "age" : 15,
+        "course" : "Express.js",
+        enrolled : false
+    },
+])
+
+db.students.deleteOne(
+    {enrolled : false}
+)
+
+db.students.deleteMany(
+    {enrolled : false}
+)
+
+
+//----------------------------------
+// Operators
+
+db.students.find({age : {$lte : 20}}, {_id : 0, name : 1, age : 1},);
+
+db.students.find({age : {$gt : 20}});
+
+db.students.find({age : {$lt : 20}});
+
+db.students.find({
+    $or : [
+        {enrolled : false},
+        {age : {$gt : 22}}
+    ]
+})
+
+db.students.find({
+    $and : [
+        {enrolled : false},
+        {age : 20}
+    ]
+})
+
+
+db.students.find({
+    $or : [
+        {course : "MongoDB", age : 20},
+        {enrolled : true}
+    ]
+})
+
+db.students.find({
+    $and : [
+        {course : "MongoDB", age : 20},
+        {enrolled : true}
+    ]
+})
+
+db.students.countDocuments({age : 20});
+
+db.students.countDocuments({course : 'MondoDB'});
