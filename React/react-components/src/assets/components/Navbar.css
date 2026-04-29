@@ -1,0 +1,13 @@
+nav {
+    display: flex;
+    gap: 50px;
+    background: linear-gradient(to left, black, rgb(186, 181, 181));
+    padding: 8px;
+    justify-content: flex-end;
+    padding-right: 100px;
+    border-radius: 4px;
+    color: white;
+    font-size: 19px;
+    font-weight: 700;
+    margin-top: 5px;
+}
