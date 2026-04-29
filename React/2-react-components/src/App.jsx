@@ -1,5 +1,5 @@
 import './App.css'
-import Navbar from './assets/components/Navbar'
+import Navbar from './components/Navbar'
 
 function App() {
 
@@ -7,10 +7,6 @@ function App() {
     <>
       <Navbar/>
       <h2>Hello</h2>
-      <Navbar/>
-      <Navbar/>
-      <Navbar/>
-      
     </>
   )
 }
